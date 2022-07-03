@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.blog-img {
+  background-position-y: center;
+  background-size: cover;
+}
+
+.blog-img1 {
+  background-image: url(img/blog-img1.jpg);
+}
+
+.blog-img2 {
+  background-image: url(img/blog-img2.jpg);
+}
+
+.blog-img3 {
+  background-image: url(img/sister.jpg);
+}
+
+.blog-img4 {
+  background-image: url(img/blog-img4.jpg);
+}
+
+.blog-img5 {
+  background-image: url(img/blog-img5.jpg);
+}
+
+.galery {
+  grid-template-rows: repeat(8, 5vw);
+}
